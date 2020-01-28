@@ -21,16 +21,17 @@ function Layout({ children }) {
           content="initial-scale=1.0, width=device-width"
           key="viewport"
         />
-        <meta charset="utf-8"></meta>
+        <meta charSet="utf-8"></meta>
         <link
           href="https://fonts.googleapis.com/css?family=Palanquin:300,400,700&display=swap"
           rel="stylesheet"
         ></link>
       </Head>
       <GlobalStyle />
-      <Header />
-
-      {children}
+      <body>
+        <Header />
+        <main>{children}</main>
+      </body>
     </>
   );
 }

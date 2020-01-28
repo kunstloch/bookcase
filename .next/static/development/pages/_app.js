@@ -218,7 +218,7 @@ function Layout(_ref) {
     },
     __self: this
   }), __jsx("meta", {
-    charset: "utf-8",
+    charSet: "utf-8",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
@@ -238,13 +238,25 @@ function Layout(_ref) {
       lineNumber: 30
     },
     __self: this
-  }), __jsx(_Header__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }), __jsx("body", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31
     },
     __self: this
-  }), children);
+  }, __jsx(_Header__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }), __jsx("main", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, children)));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
