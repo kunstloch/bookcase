@@ -2190,8 +2190,8 @@ var _jsxFileName = "C:\\Users\\alexs\\projects\\bookcase\\pages\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-const Main = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div`
-  margin-top: 200px;
+const Main = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.main`
+  padding-top: 300px;
 `;
 
 const Index = () => __jsx(Main, {

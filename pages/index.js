@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import styled from 'styled-components';
 
-const Main = styled.div`
-  margin-top: 200px;
+const Main = styled.main`
+  padding-top: 300px;
 `;
 
 const Index = () => (

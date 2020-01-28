@@ -12090,7 +12090,7 @@ var _jsxFileName = "C:\\Users\\alexs\\projects\\bookcase\\pages\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  margin-top: 200px;\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  padding-top: 300px;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -12101,7 +12101,7 @@ function _templateObject() {
 
 
 
-var Main = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div(_templateObject());
+var Main = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].main(_templateObject());
 
 var Index = function Index() {
   return __jsx(Main, {
